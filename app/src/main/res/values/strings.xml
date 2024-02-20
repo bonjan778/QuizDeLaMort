@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">OCRexos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="codez_comme_moi">Codez comme moi!</string>
+    <string name="welcome_to_superquiz">Welcome to SuperQuiz</string>
+    <string name="what_s_your_name">What\'s your name?</string>
+    <string name="entrez_votre_nom">Entrez votre nom</string>
+    <string name="let_s_continue">Let\'s continue!</string>
+    <string name="answer_d">Answer D</string>
+    <string name="answer_c">Answer C</string>
+    <string name="answer_b">Answer B</string>
+    <string name="answer_a">Answer A</string>
+    <string name="good_answer">Good Answer!</string>
+    <string name="next">Next</string>
+    <string name="questions">Questions?</string>
+</resources>

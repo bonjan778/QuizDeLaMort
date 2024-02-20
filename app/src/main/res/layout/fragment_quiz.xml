@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.quiz.QuizFragment"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="#AB97DF">
+
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="24dp"
+        android:background="@color/cardview_light_background"
+        android:textAlignment="center"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:layout_weight="2"
+        android:text="@string/questions"
+        android:textSize="44sp" />
+
+
+        <Button
+            android:id="@+id/answer_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/answer_a"
+            android:paddingVertical="16dp"
+            android:paddingHorizontal="32dp"
+            android:layout_margin="10dp"
+            android:textSize="24sp"/>
+
+        />
+
+        <Button
+            android:id="@+id/answer_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/answer_b"
+            android:paddingVertical="16dp"
+            android:paddingHorizontal="32dp"
+            android:layout_margin="10dp"
+            android:textSize="24sp"/>
+
+        />
+
+        <Button
+            android:id="@+id/answer_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/answer_c"
+            android:paddingVertical="16dp"
+            android:paddingHorizontal="32dp"
+            android:layout_margin="10dp"
+            android:textSize="24sp"/>
+
+        />
+
+        <Button
+            android:id="@+id/answer_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/answer_d"
+            android:paddingVertical="16dp"
+            android:paddingHorizontal="32dp"
+            android:layout_margin="10dp"
+            android:textSize="24sp"/>
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/good_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:padding="30dp"
+            android:text="@string/good_answer"
+            android:textSize="24sp"
+            android:visibility="invisible"
+            tools:visibility="visible"/>
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="30dp"
+            android:text="@string/next"
+            android:textSize="24sp"
+            android:visibility="invisible"
+            tools:visibility="visible"/>
+    </LinearLayout>
+
+
+</LinearLayout>
